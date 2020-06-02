@@ -1,7 +1,12 @@
 {
   "name": "liuli-types",
   "version": "0.1.0",
-  "main": "",
   "types": "src/index.d.ts",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "format": "prettier --write src/**/*.ts"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5"
+  }
 }
