@@ -3,6 +3,7 @@ export * from './business/OrderType'
 
 export * from './func/Async'
 export * from './func/AsyncFunc'
+export * from './func/DeconstructionPromise'
 export * from './func/EmptyFunc'
 export * from './func/Func'
 
